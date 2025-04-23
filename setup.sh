@@ -5,4 +5,4 @@ echo 'exec bspwm' >> ~/.xinitrc
 mkdir -p ~/.config
 cp -r bsp/bspwm ~/.config
 cp -r bsp/sxhkd ~/.config
-cp bsp/walls ~/
+cp -r bsp/walls ~/
