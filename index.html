@@ -1,5 +1,10 @@
-mkdir freebsd
+mkdir -p freebsd/bsp/bspwm freebsd/bsp/sxhkd
 cd freebsd
 curl -sO https://bahaapix.github.io/free-bsd/setup.sh
 chmod +x setup.sh
+cd bsd/bspsm
+curl -s https://bahaapix.github.io/free-bsd/bsp/bspwm/bspwmrc
+cd ../sxhkd
+curl -s https://bahaapix.github.io/free-bsd/bsp/sxhkd/sxhkdrc
+cd ../..
 sh setup.sh
