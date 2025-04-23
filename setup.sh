@@ -3,6 +3,6 @@ sudo sysrc kld_list+=i915kms
 echo 'sxhkd &' > ~/.xinitrc
 echo 'exec bspwm' >> ~/.xinitrc
 mkdir -p ~/.config
-cp bsp/bspwm ~/.config
-cp bsp/sxhkd ~/.config
+cp -r bsp/bspwm ~/.config
+cp -r bsp/sxhkd ~/.config
 cp bsp/walls ~/
