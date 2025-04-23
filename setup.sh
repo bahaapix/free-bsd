@@ -1,4 +1,8 @@
-sudo pkg install -y drm-kmod
+sudo pkg install -y drm-kmod vim fastfetch xorg alacritty dmenu bspwm chromium pulseaudio pavucontrol
 sudo sysrc kld_list+=i915kms
-sudo pkg install -y vim fastfetch xorg alacritty dmenu dwm chromium pulseaudio pavucontrol
-echo 'exec dwm' > ~/.xinitrc
+echo 'sxhkd &' > ~/.xinitrc
+echo 'exec bspwm' >> ~/.xinitrc
+mkdir -p ~/.config
+cp bsp/bspwm ~/.config
+cp bsp/sxhkd ~/.config
+cp bsp/walls ~/
