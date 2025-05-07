@@ -1,0 +1,1 @@
+url: "pkg+http://ftp.fr.FreeBSD.org/pub/FreeBSD/ports/amd64/packages-13.3-release/Latest/"
